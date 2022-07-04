@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">PORTFOLIO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h1 class="header-title">Hello everybody! My name is Maryna.</h1>
+            <p class="header-text">Here you can see my projects</p>
+            <form class="row g-3">
+              <div class="col-auto">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Join</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-lg-5 offset-lg-1">
+            <img class="header-img" src="./img/Pics_1.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="project-subtitle">My projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project-card">
+              <h3 class="project-card-title">BEM</h3>
+              <p class="project-card-description">
+                The website about travelling. Here you can choose a jorney of
+                your dream
+              </p>
+              <a class="project-card-link" href="https://github.com/MarinaKholcheva/BEM"
+                >https://github.com/MarinaKholcheva/BEM</a
+              >
+            </div>
+            <div class="project-card">
+              <h3 class="project-card-title">REST</h3>
+              <p class="project-card-description">
+                Welcome to our Restaurant. At the website you can get to know
+                about our team and the menu
+              </p>
+              <a class="project-card-link" href="https://github.com/MarinaKholcheva/REST/tree/Rest-view"
+                >https://github.com/MarinaKholcheva/REST/tree/Rest-view</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 d-none d-lg-block">
+            <img class="project-img" src="./img/Pics_2.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="project-card">
+              <h3 class="project-card-title">Adaptation</h3>
+              <p class="project-card-description">
+                Discover the world of perfect perspectives and follow us in the
+                way of fotoart
+              </p>
+              <a class="project-card-link" href="https://github.com/MarinaKholcheva/Adaptation"
+                >https://github.com/MarinaKholcheva/Adaptation</a
+              >
+            </div>
+            <div class="project-card">
+              <h3 class="project-card-title">EDU</h3>
+              <p class="project-card-description">
+                Our best specialists help you to learn any subject comfortably
+                and efficiently
+              </p>
+              <a class="project-card-link" href="https://github.com/MarinaKholcheva/EDU/tree/main"
+                >https://github.com/MarinaKholcheva/EDU/tree/main</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="footer-links">
+              <h4 class="footer-title">Links</h4>
+              <ul class="footer-list">
+                <li><a class="item-link" href="#header">Home</a></li>
+                <li><a class="item-link" href="#projects">Projects</a></li>
+                <li><a class="item-link" href="#footer">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-12">
+            <h4 class="footer-title">Contacts</h4>
+            <ul class="footer-list">
+            <li><a class="item-link" href="mailto:arcanaenator@gmail.com"
+              >arcanaenator@gmail.com</a
+            ></li>
+            <li><a class="item-link" href="tel:41798837438">+41798837438</a></li>
+          </ul>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-2 offset-md-2 col-12">
+            <div class="footer-social">
+              <a class="Facebook" href=""
+                ><img src="./img/Facebook.svg" alt=""
+              /></a>
+              <a class="LinkedIn" href="https://www.linkedin.com/in/marina-wasserman-a7a61519/"
+                ><img src="./img/LinkedIN.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
